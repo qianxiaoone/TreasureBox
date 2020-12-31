@@ -26,7 +26,6 @@ public class KeyService {
         return keys;
     }
 
-
     Integer getKeyOfBox(OpenBoxParam param) throws Exception {
         BoxService boxService = new BoxService();
         for (Integer keyAttempt = 1; keyAttempt < Integer.MAX_VALUE; keyAttempt++) {
@@ -37,6 +36,5 @@ public class KeyService {
         }
         throw new Exception("未找到key");
     }
-
 
 }
