@@ -19,16 +19,13 @@ public class BoxService {
         if (box == null) {
             return false;
         }
-        if ("".equals(box.getTimestamp())){
-            box.setTimestamp(Calendar.getInstance().getTimeInMillis());
-        }
         if (boxNum == 1) {
             box.setForeHashStr("0");
         } else {
             box.setForeHashStr(getBoxByNum(boxes, boxNum - 1).getHashStr());
         }
         StringBuilder keyStr = new StringBuilder();
-        keyStr.append(boxNum).append(box.getTimestamp()).append(box.getForeHashStr()).append(key);
+        keyStr.append(boxNum).append(box.getForeHashStr()).append(key);
         StringBuilder hashStr = new StringBuilder();
         try {
             hashStr = Sha256Hash.getHash(keyStr.toString());
@@ -40,7 +37,6 @@ public class BoxService {
         }
         return false;
     }
-
 
     public TreasureBox getBoxByNum(List<TreasureBox> boxes, int num) {
         for (TreasureBox box : boxes) {

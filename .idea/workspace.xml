@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a3d6ec-10e7-476e-bbd0-a521c49cf626" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/OpenBoxParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/BoxService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/Sha256Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BoxServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/TreasureBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/TreasureBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,15 @@
       <recent name="C:\Users\30609\Desktop\git_contest\TreasureBox\src\main\java\service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoxServiceTest.startWithFiveZeroTest">
+  <component name="RunManager" selected="JUnit.All in TreasureBox">
+    <configuration name="All in TreasureBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TreasureBox" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoxGenerationTest.generationBoxesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreasureBox" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in TreasureBox" />
         <item itemvalue="JUnit.BoxServiceTest.startWithFiveZeroTest" />
         <item itemvalue="JUnit.BoxGenerationTest.generationBoxesTest" />
       </list>
@@ -91,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609396829171</updated>
-      <workItem from="1609396832078" duration="5228000" />
+      <workItem from="1609396832078" duration="5348000" />
     </task>
     <servers />
   </component>
@@ -107,21 +112,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="976" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1609400204136" />
-    <state width="1323" height="144" key="GridCell.Tab.0.bottom" timestamp="1609401922847">
+    <state width="1323" height="153" key="GridCell.Tab.0.bottom" timestamp="1609402363674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609401922847" />
-    <state width="1323" height="144" key="GridCell.Tab.0.center" timestamp="1609401922846">
+    <state width="1323" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609402363674" />
+    <state width="1323" height="153" key="GridCell.Tab.0.center" timestamp="1609402363673">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609401922846" />
-    <state width="1323" height="144" key="GridCell.Tab.0.left" timestamp="1609401922846">
+    <state width="1323" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609402363673" />
+    <state width="1323" height="153" key="GridCell.Tab.0.left" timestamp="1609402363673">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609401922846" />
-    <state width="1323" height="144" key="GridCell.Tab.0.right" timestamp="1609401922847">
+    <state width="1323" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609402363673" />
+    <state width="1323" height="153" key="GridCell.Tab.0.right" timestamp="1609402363674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609401922847" />
+    <state width="1323" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609402363674" />
   </component>
 </project>
