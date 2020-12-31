@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d5a3d6ec-10e7-476e-bbd0-a521c49cf626" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/KeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/KeyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BoxServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BoxServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BoxServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BoxServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/BoxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/BoxService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +50,21 @@
       <recent name="C:\Users\30609\Desktop\git_contest\TreasureBox\src\main\java\service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BoxServiceTest.getBoxByNumTest">
-    <configuration name="BoxGenerationTest.generationBoxesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KeyServiceTest.getKeysTest">
+    <configuration name="BoxGenerationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreasureBox" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BoxGenerationTest" />
-      <option name="METHOD_NAME" value="generationBoxesTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxServiceTest.getBoxByNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoxServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreasureBox" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BoxServiceTest" />
-      <option name="METHOD_NAME" value="getBoxByNumTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +78,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KeyServiceTest.getKeysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TreasureBox" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KeyServiceTest" />
+      <option name="METHOD_NAME" value="getKeysTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sha256HashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreasureBox" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,23 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sha256HashTest.getHashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TreasureBox" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Sha256HashTest" />
-      <option name="METHOD_NAME" value="getHashTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BoxServiceTest.getBoxByNumTest" />
-        <item itemvalue="JUnit.Sha256HashTest" />
-        <item itemvalue="JUnit.Sha256HashTest.getHashTest" />
+        <item itemvalue="JUnit.KeyServiceTest.getKeysTest" />
         <item itemvalue="JUnit.KeyServiceTest" />
-        <item itemvalue="JUnit.BoxGenerationTest.generationBoxesTest" />
+        <item itemvalue="JUnit.Sha256HashTest" />
+        <item itemvalue="JUnit.BoxServiceTest" />
+        <item itemvalue="JUnit.BoxGenerationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609396829171</updated>
       <workItem from="1609396832078" duration="9821000" />
+      <workItem from="1609408641335" duration="689000" />
     </task>
     <servers />
   </component>
@@ -145,21 +142,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609405618503" />
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1609406670943">
+    <state width="1323" height="153" key="GridCell.Tab.0.bottom" timestamp="1609408235885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609406670943" />
-    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1609406670942">
+    <state width="1323" height="153" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609408235885" />
+    <state width="1323" height="153" key="GridCell.Tab.0.center" timestamp="1609408235884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609406670942" />
-    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1609406670942">
+    <state width="1323" height="153" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609408235884" />
+    <state width="1323" height="153" key="GridCell.Tab.0.left" timestamp="1609408235884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609406670942" />
-    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1609406670943">
+    <state width="1323" height="153" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609408235884" />
+    <state width="1323" height="153" key="GridCell.Tab.0.right" timestamp="1609408235885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609406670943" />
+    <state width="1323" height="153" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609408235885" />
   </component>
 </project>

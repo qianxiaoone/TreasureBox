@@ -33,6 +33,7 @@ public class BoxService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        box.setHashStr(hashStr.toString());
         if (startWithFiveZero(hashStr.toString())) {
             return true;
         }
