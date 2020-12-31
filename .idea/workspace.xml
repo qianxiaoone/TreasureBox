@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a3d6ec-10e7-476e-bbd0-a521c49cf626" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BoxGenerationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BoxGenerationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KeyServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KeyServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Sha256HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/KeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/KeyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <recent name="C:\Users\30609\Desktop\git_contest\TreasureBox\src\main\java\service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KeyServiceTest">
+  <component name="RunManager" selected="JUnit.Sha256HashTest">
     <configuration name="All in TreasureBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreasureBox" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,16 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxServiceTest.startWithFiveZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TreasureBox" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BoxServiceTest" />
-      <option name="METHOD_NAME" value="startWithFiveZeroTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KeyServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TreasureBox" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,12 +78,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sha256HashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TreasureBox" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Sha256HashTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sha256HashTest.getHashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TreasureBox" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Sha256HashTest" />
+      <option name="METHOD_NAME" value="getHashTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Sha256HashTest" />
+        <item itemvalue="JUnit.Sha256HashTest.getHashTest" />
         <item itemvalue="JUnit.KeyServiceTest" />
         <item itemvalue="JUnit.BoxGenerationTest.generationBoxesTest" />
         <item itemvalue="JUnit.All in TreasureBox" />
-        <item itemvalue="JUnit.BoxServiceTest.startWithFiveZeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609396829171</updated>
-      <workItem from="1609396832078" duration="8740000" />
+      <workItem from="1609396832078" duration="9079000" />
     </task>
     <servers />
   </component>
@@ -133,21 +141,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609405618503" />
-    <state width="1323" height="76" key="GridCell.Tab.0.bottom" timestamp="1609405273848">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom" timestamp="1609406019737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609405273848" />
-    <state width="1323" height="76" key="GridCell.Tab.0.center" timestamp="1609405273848">
+    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609406019737" />
+    <state width="1323" height="176" key="GridCell.Tab.0.center" timestamp="1609406019736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609405273848" />
-    <state width="1323" height="76" key="GridCell.Tab.0.left" timestamp="1609405273848">
+    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609406019736" />
+    <state width="1323" height="176" key="GridCell.Tab.0.left" timestamp="1609406019736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609405273848" />
-    <state width="1323" height="76" key="GridCell.Tab.0.right" timestamp="1609405273848">
+    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609406019736" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right" timestamp="1609406019736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="76" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609405273848" />
+    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609406019736" />
   </component>
 </project>

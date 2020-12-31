@@ -32,7 +32,6 @@ public class KeyService {
         for (Integer keyAttempt = 1; keyAttempt < Integer.MAX_VALUE; keyAttempt++) {
             param.setKey(keyAttempt);
             if (boxService.open(param)) {
-                System.out.println(keyAttempt);
                 return keyAttempt;
             }
         }
