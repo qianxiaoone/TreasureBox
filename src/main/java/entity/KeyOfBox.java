@@ -1,22 +1,15 @@
 package entity;
 
-import java.util.List;
-
 /**
  * @author wang-hc
  */
-public class OpenBoxParam {
+public class KeyOfBox {
     private int boxNum;
     private int key;
-    private List<TreasureBox> boxes;
 
-    public OpenBoxParam() {
-    }
-
-    public OpenBoxParam(int boxNum, int key, List<TreasureBox> boxes) {
+    public KeyOfBox(int boxNum, int key) {
         this.boxNum = boxNum;
         this.key = key;
-        this.boxes = boxes;
     }
 
     public int getBoxNum() {
@@ -35,11 +28,11 @@ public class OpenBoxParam {
         this.key = key;
     }
 
-    public List<TreasureBox> getBoxes() {
-        return boxes;
-    }
-
-    public void setBoxes(List<TreasureBox> boxes) {
-        this.boxes = boxes;
+    @Override
+    public String toString() {
+        return "KeyOfBox{" +
+                "boxNum=" + boxNum +
+                ", key=" + key +
+                '}';
     }
 }
