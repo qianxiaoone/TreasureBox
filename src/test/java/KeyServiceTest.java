@@ -1,5 +1,6 @@
 import entity.KeyOfBox;
 import entity.TreasureBox;
+import org.junit.Assert;
 import org.junit.Test;
 import service.BoxGeneration;
 import service.KeyService;
@@ -16,5 +17,6 @@ public class KeyServiceTest {
         for (KeyOfBox keyOfBox : keys) {
             System.out.println(keyOfBox);
         }
+        Assert.assertEquals(10, keys.size());
     }
 }

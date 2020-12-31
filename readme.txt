@@ -1,2 +1,3 @@
 jdk1.8
 maven工程
+运行测试类KeyServiceTest中的getKeysTest方法即可得到所有的神秘数字

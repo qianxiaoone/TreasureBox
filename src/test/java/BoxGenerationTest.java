@@ -12,6 +12,5 @@ public class BoxGenerationTest {
         List<TreasureBox> boxes = generation.generationBoxes();
         Assert.assertEquals(10, boxes.size());
         Assert.assertEquals(1, boxes.get(0).getBoxNum());
-
     }
 }
